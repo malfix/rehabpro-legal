@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>rehabpro</title>
+    <style>
+      :root {
+        --bg: #fff;
+        --fg: #1a1d21;
+        --mut: #5d6b7a;
+        --line: #e3e8ef;
+        --card: #f7f9fb;
+        --accent: #b4530f;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1418;
+          --fg: #eef2f6;
+          --mut: #9aa8b6;
+          --line: #243039;
+          --card: #161d23;
+          --accent: #fb923c;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 38rem;
+        background: var(--bg);
+        color: var(--fg);
+        padding: 15vh 22px 80px;
+        font: 17px/1.6 ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+      h1 {
+        font-size: 34px;
+        margin: 0 0 10px;
+        letter-spacing: -0.03em;
+      }
+      p.claim {
+        font-size: 19px;
+        color: var(--fg);
+        margin: 0 0 8px;
+      }
+      p.sub {
+        color: var(--mut);
+        margin: 0 0 38px;
+      }
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      a.doc {
+        display: block;
+        border: 1px solid var(--line);
+        background: var(--card);
+        border-radius: 10px;
+        padding: 16px 18px;
+        text-decoration: none;
+        color: var(--fg);
+      }
+      a.doc:hover {
+        border-color: var(--accent);
+      }
+      a.doc strong {
+        display: block;
+        color: var(--accent);
+        margin-bottom: 3px;
+      }
+      a.doc span {
+        font-size: 14.5px;
+        color: var(--mut);
+      }
+      footer {
+        margin-top: 44px;
+        font-size: 14px;
+        color: var(--mut);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>rehabpro</h1>
+    <p class="claim">
+      Un fisioterapista compone un programma di esercizi domiciliari e ne consegna al paziente una scheda
+      stampata.
+    </p>
+    <p class="sub">In italiano, senza connessione, senza account e senza dati del paziente.</p>
+
+    <div class="links">
+      <a class="doc" href="privacy.html">
+        <strong>Informativa sulla privacy</strong>
+        <span>Quali dati tratta l'applicazione — e perché la risposta è «nessuno che identifichi una persona».</span>
+      </a>
+      <a class="doc" href="termini.html">
+        <strong>Termini e avvertenze</strong>
+        <span>Licenza d'uso, condizioni dell'abbonamento e avvertenza clinica.</span>
+      </a>
+    </div>
+
+    <footer>Emanuele Malfarà — Italia</footer>
+  </body>
+</html>
