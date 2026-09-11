@@ -13,14 +13,20 @@ sia destinato a essere letto da chiunque.
 | `privacy.html` | Informativa sulla privacy — l'URL da inserire in App Store Connect            |
 | `termini.html` | Termini, condizioni dell'abbonamento e **avvertenza clinica**                 |
 
-## Da completare
+## Stato
 
-- [ ] Sostituire `indirizzo-email-da-definire` con un indirizzo reale in `privacy.html` e `termini.html`,
-      poi rimuovere il blocco di avviso giallo da entrambe.
+- [x] Indirizzo di contatto inserito (`malfara.labs@gmail.com`) e blocchi di avviso rimossi — 2026-09-11.
 
-Finché quell'indirizzo è un segnaposto, **gli URL non vanno inseriti in App Store Connect**: una
-informativa privacy senza un contatto valido non soddisfa l'art. 13 del Regolamento UE 2016/679 e non
-regge una review.
+Le pagine sono complete e i due URL possono essere inseriti in App Store Connect:
+
+| Campo in App Store Connect | URL                                                  |
+| -------------------------- | ---------------------------------------------------- |
+| Privacy Policy URL         | `https://malfix.github.io/rehabpro-legal/privacy.html` |
+| Termini (EULA / licenza)   | `https://malfix.github.io/rehabpro-legal/termini.html` |
+
+**L'indirizzo di contatto è pubblico e deve restare attivo.** È il recapito che l'art. 13 del
+Regolamento UE 2016/679 richiede per il titolare del trattamento: senza un contatto valido l'informativa
+non è conforme, e una casella che rimbalza è peggio di nessuna casella.
 
 ## Scelte che non sono stilistiche
 
