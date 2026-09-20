@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assistenza — rehabpro</title>
+    <style>
+      :root {
+        --bg: #fff;
+        --fg: #1a1d21;
+        --mut: #5d6b7a;
+        --line: #e3e8ef;
+        --card: #f7f9fb;
+        --accent: #b4530f;
+        --clin: #9a3412;
+        --clinbg: #fff7ed;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1418;
+          --fg: #eef2f6;
+          --mut: #9aa8b6;
+          --line: #243039;
+          --card: #161d23;
+          --accent: #fb923c;
+          --clin: #fdba74;
+          --clinbg: #1f1409;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 46rem;
+        background: var(--bg);
+        color: var(--fg);
+        padding: 40px 22px 80px;
+        font: 17px/1.62 ui-serif, Georgia, "Times New Roman", serif;
+      }
+      h1 {
+        font-size: 27px;
+        line-height: 1.25;
+        margin: 0 0 6px;
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+        letter-spacing: -0.02em;
+      }
+      .meta {
+        color: var(--mut);
+        font-size: 14px;
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+        margin: 0 0 30px;
+      }
+      h2 {
+        font-size: 19px;
+        margin: 38px 0 8px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+      }
+      h3 {
+        font-size: 16px;
+        margin: 24px 0 6px;
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+      }
+      p {
+        margin: 0 0 14px;
+      }
+      ul {
+        margin: 0 0 14px;
+        padding-left: 22px;
+      }
+      li {
+        margin-bottom: 7px;
+      }
+      strong {
+        font-weight: 650;
+      }
+      a {
+        color: var(--accent);
+      }
+      .contatto {
+        border: 1px solid var(--line);
+        background: var(--card);
+        border-radius: 10px;
+        padding: 20px 22px 8px;
+        margin: 0 0 28px;
+      }
+      .contatto h2 {
+        margin-top: 0;
+        border-top: none;
+        padding-top: 0;
+        color: var(--accent);
+        font-size: 20px;
+      }
+      .clinica {
+        border: 2px solid var(--clin);
+        background: var(--clinbg);
+        border-radius: 10px;
+        padding: 20px 22px 8px;
+        margin: 28px 0;
+      }
+      .clinica h2 {
+        margin-top: 0;
+        border-top: none;
+        padding-top: 0;
+        color: var(--clin);
+        font-size: 20px;
+      }
+      footer {
+        margin-top: 54px;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+        font-size: 14px;
+        color: var(--mut);
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Assistenza per rehabpro</h1>
+    <p class="meta">Ultimo aggiornamento: 20 settembre 2026</p>
+
+    <div class="contatto">
+      <h2>Come ricevere assistenza</h2>
+      <p>
+        Si scrive a <a href="mailto:malfara.labs@gmail.com">malfara.labs@gmail.com</a>. Risponde una
+        persona, di norma entro tre giorni lavorativi.
+      </p>
+      <p>
+        Per una segnalazione tecnica è utile indicare fin da subito la versione dell'applicazione, il
+        modello di iPhone, la versione di iOS e che cosa si stava facendo quando il problema è comparso.
+        Non è necessario allegare nulla che riguardi un paziente — e non va allegato: rehabpro non
+        raccoglie dati di questo genere e l'assistenza non ne ha bisogno per lavorare.
+      </p>
+    </div>
+
+    <h2>Che cosa fa rehabpro</h2>
+    <p>
+      È lo strumento con cui un fisioterapista compone un programma di esercizi domiciliari a partire da
+      un catalogo incluso nell'applicazione, e ne consegna al paziente una scheda stampata. Funziona in
+      italiano, senza connessione, senza account e senza dati del paziente.
+    </p>
+
+    <h2>Domande frequenti</h2>
+
+    <h3>Dove finiscono i dati dei pazienti?</h3>
+    <p>
+      Da nessuna parte, perché non vengono chiesti. Non esiste alcun campo la cui funzione sia
+      identificare un paziente: nessun nome, nessuna data di nascita, nessun codice. Il programma che il
+      terapista compone resta sul suo dispositivo e non viene trasmesso a nessuno, titolare compreso. I
+      dettagli sono nell'<a href="privacy.html">informativa sulla privacy</a>.
+    </p>
+
+    <h3>Serve un account? Serve internet?</h3>
+    <p>
+      Nessun account. La connessione serve soltanto per l'acquisto dell'abbonamento e per la verifica
+      periodica presso Apple che sia attivo: comporre un programma e stamparlo funziona anche senza rete.
+    </p>
+
+    <h3>Come si consegna la scheda al paziente?</h3>
+    <p>
+      Dal programma composto, con <strong>Confermare e condividere</strong>: la stampa e la condivisione
+      si appoggiano alle funzioni del sistema operativo, quindi valgono le stesse destinazioni di
+      qualunque altra app — stampante, PDF, messaggio.
+    </p>
+
+    <h3>Perché le dosi partono vuote?</h3>
+    <p>
+      È una scelta progettuale, non una dimenticanza: l'applicazione non compila e non suggerisce alcun
+      valore di dose, e ciò che non viene scritto non viene stampato. I valori abituali del terapista si
+      impostano una volta nelle Impostazioni e vengono proposti in chiaro sugli esercizi nuovi, ma
+      contano solo quando li si conferma.
+    </p>
+
+    <h3>Ho cambiato iPhone: come recupero l'abbonamento?</h3>
+    <p>
+      Con <strong>Ripristinare gli acquisti</strong>, nelle Impostazioni dell'applicazione, usando lo
+      stesso Apple Account con cui è stato sottoscritto. I programmi composti, invece, non si trasferiscono
+      e non si sincronizzano fra dispositivi: restano sul dispositivo su cui sono stati scritti, perché non
+      esiste alcun server dove potrebbero passare.
+    </p>
+
+    <h3>Come si disdice l'abbonamento? E i rimborsi?</h3>
+    <p>
+      La disdetta si effettua dalle impostazioni dell'Apple Account (Impostazioni → il proprio nome →
+      Abbonamenti), almeno ventiquattro ore prima della scadenza del periodo in corso; l'accesso prosegue
+      fino alla fine del periodo già pagato. I rimborsi sono gestiti esclusivamente da Apple: il titolare
+      non ha la facoltà di disporli. Le condizioni per esteso sono nei
+      <a href="termini.html">termini</a>.
+    </p>
+
+    <h3>L'abbonamento è scaduto: ho perso il lavoro fatto?</h3>
+    <p>
+      No. Senza abbonamento attivo non si compone un nuovo programma né si esporta uno già composto, ma
+      nulla viene cancellato: il programma resta salvato sul dispositivo, non accessibile, e ritorna
+      integro quando l'abbonamento viene riattivato. Il catalogo degli esercizi rimane consultabile.
+    </p>
+
+    <h3>C'è un errore in una descrizione, o manca un esercizio</h3>
+    <p>
+      Vale la pena segnalarlo all'indirizzo qui sopra, indicando il nome dell'esercizio. I testi del
+      catalogo sono materiale di supporto alla composizione e vengono corretti nelle versioni successive.
+    </p>
+
+    <div class="clinica">
+      <h2>Una cosa che l'assistenza non può fare</h2>
+      <p>
+        rehabpro è uno strumento di composizione e di stampa: non è un dispositivo medico, non formula
+        diagnosi e non propone terapie. Nessuna risposta dell'assistenza costituisce un'indicazione
+        clinica. La scelta degli esercizi, il dosaggio, i limiti e l'idoneità al singolo paziente
+        appartengono al fisioterapista che compone il programma, sotto la sua responsabilità
+        professionale.
+      </p>
+    </div>
+
+    <footer>
+      <p>
+        <a href="index.html">rehabpro</a> · <a href="privacy.html">Informativa sulla privacy</a> ·
+        <a href="termini.html">Termini e avvertenze</a> · Titolare: Emanuele Malfarà, Italia
+      </p>
+    </footer>
+  </body>
+</html>
