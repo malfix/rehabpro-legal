@@ -1,0 +1,181 @@
+<!doctype html>
+<!-- DERIVED from the Italian privacy.html of malfix/rehabpro-legal@7e0d0be06c323833ea667543a9ad2197eadc4632 (sha256 2032dde353a228e59ed229aa039d204bfdb4746db979a79c23f552669f5142f4) by `node scripts/translate.mjs ingest sv legal` — never edited by hand. reviewed: false — an LLM translated it and no lawyer has read it. -->
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Integritetspolicy — rehabpro</title>
+    <style>
+      :root {
+        --bg: #fff;
+        --fg: #1a1d21;
+        --mut: #5d6b7a;
+        --line: #e3e8ef;
+        --card: #f7f9fb;
+        --accent: #b4530f;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1418;
+          --fg: #eef2f6;
+          --mut: #9aa8b6;
+          --line: #243039;
+          --card: #161d23;
+          --accent: #fb923c;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 46rem;
+        background: var(--bg);
+        color: var(--fg);
+        padding: 40px 22px 80px;
+        font: 17px/1.62 ui-serif, Georgia, "Times New Roman", serif;
+      }
+      h1 {
+        font-size: 27px;
+        line-height: 1.25;
+        margin: 0 0 6px;
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+        letter-spacing: -0.02em;
+      }
+      .meta {
+        color: var(--mut);
+        font-size: 14px;
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+        margin: 0 0 30px;
+      }
+      h2 {
+        font-size: 19px;
+        margin: 38px 0 8px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+      }
+      h3 {
+        font-size: 16px;
+        margin: 24px 0 6px;
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+      }
+      p {
+        margin: 0 0 14px;
+      }
+      ul {
+        margin: 0 0 14px;
+        padding-left: 22px;
+      }
+      li {
+        margin-bottom: 7px;
+      }
+      strong {
+        font-weight: 650;
+      }
+      a {
+        color: var(--accent);
+      }
+      .sintesi {
+        border: 1px solid var(--line);
+        background: var(--card);
+        border-radius: 10px;
+        padding: 18px 20px 6px;
+        margin: 0 0 26px;
+      }
+      .sintesi p:last-child {
+        margin-bottom: 14px;
+      }
+      footer {
+        margin-top: 54px;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+        font-size: 14px;
+        color: var(--mut);
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Integritetspolicy för rehabpro</h1>
+    <p class="non-rivista" style="border: 2px solid var(--accent); border-radius: 10px; padding: 12px 16px; margin: 0 0 26px; font-family: ui-sans-serif, -apple-system, sans-serif; font-size: 15px"><strong>Översättningen är inte granskad av en jurist. Vid avvikelser gäller den italienska texten.</strong> <a href="../privacy.html">Originaltext på italienska</a></p>
+    <p class="meta">Senast uppdaterad: 11 september 2026</p>
+
+    <div class="sintesi">
+      <h3 style="margin-top: 0">Sammanfattning</h3>
+      <p>rehabpro <strong>samlar inte in några personuppgifter</strong>. Appen kräver inte att ett konto skapas, har ingen server, innehåller inget system för analys, statistik, reklam eller felrapportering och har inget fält avsett att identifiera en patient.</p>
+      <p>Det övningsprogram som terapeuten sätter samman stannar <strong>på terapeutens enhet</strong>. Det överförs inte till någon, inte heller till den personuppgiftsansvarige.</p>
+      <p>Den enda nätverkskommunikation som appen utför sker med Apple, för att kontrollera om prenumerationen är aktiv. Den kommunikationen <strong>överför inte</strong> programmet, övningarna eller någon text som terapeuten har skrivit.</p>
+    </div>
+
+    <h2>1. Personuppgiftsansvarig</h2>
+    <p>Personuppgiftsansvarig är <strong>Emanuele Malfarà</strong>, fysisk person, Italien, i egenskap av utvecklare av appen rehabpro.</p>
+    <p>För alla förfrågningar som gäller denna integritetspolicy: <a href="mailto:malfara.labs@gmail.com">malfara.labs@gmail.com</a>.</p>
+
+    <h2>2. Vilka uppgifter appen behandlar</h2>
+    <p>rehabpro är ett verktyg som en fysioterapeut använder för att sätta samman ett program med hemövningar och ge sin patient ett utskrivet programkort. De uppgifter som appen hanterar är uteslutande följande, och de stannar alla på enheten:</p>
+    <ul>
+      <li><strong>de valda övningarna</strong> ur den katalog som ingår i appen, med de doser, begränsningar och anteckningar som terapeuten skriver;</li>
+      <li><strong>prenumerationens aktiveringsstatus</strong>, så som den meddelas av Apple.</li>
+    </ul>
+    <p>Det finns inte, och det är inte planerat, något fält vars funktion är att identifiera en patient: inget namn, inget födelsedatum, ingen kod, ingen fri rubrik på programnivå. Detta är inte ett konfigurationsval utan en egenskap hos produkten, som kontrolleras av automatiska kontroller av källkoden vid varje ändring.</p>
+
+    <h3>Den kvarstående risken – redovisad i stället för förtigen</h3>
+    <p>Vissa fält som terapeuten fyller i är <strong>fritext</strong>: smärtgränsen, belastningen och anteckningen. Inget av dem efterfrågar uppgifter om en patient, och ingenting i appen uppmanar till det. En terapeut kan dock på eget initiativ skriva ett namn eller en annan personuppgift där. Ingen produkt kan förhindra det.</p>
+    <p>Om detta sker stannar texten <strong>på terapeutens enhet</strong> och når ingen annan. För den behandlingen är <strong>terapeuten själv personuppgiftsansvarig</strong>, inom ramen för sin yrkesverksamhet och de skyldigheter som terapeuten redan har gentemot sina patienter. Den personuppgiftsansvarige för denna integritetspolicy har inte tillgång till dessa uppgifter, tar inte emot dem och kan inte hämta ut dem.</p>
+    <p>Det finns tre omständigheter som begränsar denna risk, och de går att kontrollera: det finns <strong>bara ett program åt gången</strong>, nollställningen är uttrycklig och fullständig, och appen sparar ingen kopia av det exporterade programkortet.</p>
+
+    <h2>3. Var uppgifterna lagras, och hur länge</h2>
+    <p>I appens lokala lagring, på enheten, och ingen annanstans. Det finns inga servrar, fjärrsäkerhetskopior eller molntjänster som förvaltas av den personuppgiftsansvarige. Uppgifterna finns kvar tills terapeuten nollställer programmet eller avinstallerar appen; i båda fallen tas de bort från enheten.</p>
+    <p>Om terapeuten har aktiverat säkerhetskopiering till iCloud, som tillhandahålls av Apple, kan den lokala lagringen ingå i den säkerhetskopian enligt enhetens inställningar och <a href="https://www.apple.com/legal/privacy/it/" rel="noopener">Apples integritetspolicy</a>. Det är en behandling som sker mellan användaren och Apple, och som den personuppgiftsansvarige inte är part i.</p>
+
+    <h2>4. Ingen spårning</h2>
+    <p>rehabpro innehåller inte, och innehåller inte heller i inaktiverad form:</p>
+    <ul>
+      <li>system för statistik, användningsanalys eller telemetri;</li>
+      <li>verktyg för automatisk felrapportering;</li>
+      <li>annonsidentifierare, reklam, profilering eller automatiserat beslutsfattande;</li>
+      <li>åtkomst till kameran eller bildbiblioteket;</li>
+      <li>kakor (cookies) eller likvärdig teknik.</li>
+    </ul>
+    <p>I den integritetsdeklaration som bifogas appen uppger den personuppgiftsansvarige för Apple att <strong>inga kategorier av uppgifter samlas in</strong> och att <strong>ingen spårning sker</strong>.</p>
+
+    <h2>5. Prenumeration och betalningar</h2>
+    <p>Prenumerationen köps <strong>via App Store</strong>: säljaren är Apple, som hanterar betalningen, förnyelsen, en eventuell provperiod och begäranden om återbetalning. Den personuppgiftsansvarige <strong>tar inte emot och behandlar inte</strong> betalkortsuppgifter eller uppgifter om användarens Apple-konto.</p>
+    <p>Från Apple tar den personuppgiftsansvarige emot:</p>
+    <ul>
+      <li><strong>aggregerade försäljningsrapporter</strong>, som visar hur många aktiveringar som har skett och i vilket land, utan att det går att identifiera en person;</li>
+      <li><strong>eventuella aggregerade diagnos- och kraschdata</strong>, och endast för de användare som i sin enhets inställningar har valt att dela analysinformation med utvecklare. Denna delning är användarens val gentemot Apple och kan när som helst återkallas i inställningarna för iOS.</li>
+    </ul>
+    <p>Att kontrollera om prenumerationen är aktiv kräver kommunikation mellan appen och Apple. Den kommunikationen gäller uteslutande nyttjanderätten: <strong>inga uppgifter om programmet, patienten eller katalogen passerar genom den</strong>, och även detta kontrolleras av en automatisk kontroll av källkoden.</p>
+
+    <h2>6. Rättslig grund och ändamål</h2>
+    <p>För de uppgifter som stannar på enheten utförs behandlingen av terapeuten för dennes egna yrkesmässiga ändamål och på dennes eget ansvar. Den personuppgiftsansvarige för denna integritetspolicy bestämmer inte ändamålen eller medlen för behandlingen, utöver att tillhandahålla verktyget.</p>
+    <p>För prenumerationens status är den rättsliga grunden <strong>fullgörande av avtal</strong> (artikel 6.1 b i förordning (EU) 2016/679): utan den kontrollen kan appen inte veta om tjänsten ska tillhandahållas.</p>
+
+    <h2>7. Utlämnande och överföring av uppgifter</h2>
+    <p>Inga uppgifter lämnas ut till tredje part, sprids eller överförs utanför Europeiska unionen av den personuppgiftsansvarige, av det enklaste skälet: den personuppgiftsansvarige innehar inga. Den behandling som Apple utför i egenskap av distributör och säljare regleras av Apples integritetspolicy, som länkas ovan.</p>
+
+    <h2>8. Den registrerades rättigheter</h2>
+    <p>Förordning (EU) 2016/679 ger rätt till tillgång, rättelse, radering, begränsning, invändning och dataportabilitet (artiklarna 15–22). Det bör sägas exakt hur de tillämpas här:</p>
+    <ul>
+      <li><strong>gentemot den personuppgiftsansvarige</strong>: eftersom denne inte innehar några personuppgifter om användarna eller deras patienter finns det inget att lämna ut, rätta eller radera. En begäran besvaras ändå, och svaret blir detta.</li>
+      <li><strong>på enheten</strong>: kontrollen är direkt och omedelbar. Terapeuten kan nollställa programmet i appen eller avinstallera den och därmed uppnå fullständig radering utan att behöva begära det av någon.</li>
+      <li><strong>gentemot Apple</strong>: för uppgifter om kontot, betalningen och prenumerationen ska Apple kontaktas.</li>
+    </ul>
+    <p>Det går också att lämna in ett klagomål till den italienska tillsynsmyndigheten, <strong>Garante per la protezione dei dati personali</strong> (<a href="https://www.garanteprivacy.it" rel="noopener">garanteprivacy.it</a>).</p>
+    <p>Utöver den ovan nämnda Garante per la protezione dei dati personali kan klagomål också lämnas till tillsynsmyndigheten i det land där den registrerade har sin vanliga vistelseort eller sin arbetsplats, eller där den påstådda överträdelsen ägde rum (artikel 77 i förordning (EU) 2016/679). Myndigheterna i de länder som denna version riktar sig till:</p>
+    <ul>
+      <li><strong>Integritetsskyddsmyndigheten (IMY)</strong> (Sverige) — <a href="https://www.imy.se" rel="noopener">imy.se</a></li>
+      <li><strong>Dataombudsmannens byrå</strong> (Finland) — <a href="https://tietosuoja.fi/sv" rel="noopener">tietosuoja.fi/sv</a></li>
+    </ul>
+
+    <h2>9. Appens målgrupp</h2>
+    <p>rehabpro är avsedd för hälso- och sjukvårdspersonal. Den riktar sig inte till minderåriga och behandlar inte medvetet uppgifter om minderåriga.</p>
+
+    <h2>10. Ändringar av denna integritetspolicy</h2>
+    <p>Eventuella ändringar publiceras på denna sida med ett nytt uppdateringsdatum. Om en ändring skulle gälla arten av de uppgifter som behandlas kommer detta att framgå tydligt i början.</p>
+
+    <footer><p> <a href="index.html">rehabpro</a> · <a href="termini.html">Villkor och ansvarsfriskrivning</a> · <a href="supporto.html">Support</a> · Personuppgiftsansvarig: Emanuele Malfarà, Italien </p></footer>
+  </body>
+</html>

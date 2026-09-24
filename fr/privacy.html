@@ -1,0 +1,182 @@
+<!doctype html>
+<!-- DERIVED from the Italian privacy.html of malfix/rehabpro-legal@7e0d0be06c323833ea667543a9ad2197eadc4632 (sha256 2032dde353a228e59ed229aa039d204bfdb4746db979a79c23f552669f5142f4) by `node scripts/translate.mjs ingest fr legal` — never edited by hand. reviewed: false — an LLM translated it and no lawyer has read it. -->
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Politique de confidentialité — rehabpro</title>
+    <style>
+      :root {
+        --bg: #fff;
+        --fg: #1a1d21;
+        --mut: #5d6b7a;
+        --line: #e3e8ef;
+        --card: #f7f9fb;
+        --accent: #b4530f;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1418;
+          --fg: #eef2f6;
+          --mut: #9aa8b6;
+          --line: #243039;
+          --card: #161d23;
+          --accent: #fb923c;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 46rem;
+        background: var(--bg);
+        color: var(--fg);
+        padding: 40px 22px 80px;
+        font: 17px/1.62 ui-serif, Georgia, "Times New Roman", serif;
+      }
+      h1 {
+        font-size: 27px;
+        line-height: 1.25;
+        margin: 0 0 6px;
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+        letter-spacing: -0.02em;
+      }
+      .meta {
+        color: var(--mut);
+        font-size: 14px;
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+        margin: 0 0 30px;
+      }
+      h2 {
+        font-size: 19px;
+        margin: 38px 0 8px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+      }
+      h3 {
+        font-size: 16px;
+        margin: 24px 0 6px;
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+      }
+      p {
+        margin: 0 0 14px;
+      }
+      ul {
+        margin: 0 0 14px;
+        padding-left: 22px;
+      }
+      li {
+        margin-bottom: 7px;
+      }
+      strong {
+        font-weight: 650;
+      }
+      a {
+        color: var(--accent);
+      }
+      .sintesi {
+        border: 1px solid var(--line);
+        background: var(--card);
+        border-radius: 10px;
+        padding: 18px 20px 6px;
+        margin: 0 0 26px;
+      }
+      .sintesi p:last-child {
+        margin-bottom: 14px;
+      }
+      footer {
+        margin-top: 54px;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+        font-size: 14px;
+        color: var(--mut);
+        font-family: ui-sans-serif, -apple-system, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Politique de confidentialité de rehabpro</h1>
+    <p class="non-rivista" style="border: 2px solid var(--accent); border-radius: 10px; padding: 12px 16px; margin: 0 0 26px; font-family: ui-sans-serif, -apple-system, sans-serif; font-size: 15px"><strong>Traduction non relue par un juriste. En cas de divergence, le texte italien fait foi.</strong> <a href="../privacy.html">Texte original en italien</a></p>
+    <p class="meta">Dernière mise à jour : 11 septembre 2026</p>
+
+    <div class="sintesi">
+      <h3 style="margin-top: 0">En résumé</h3>
+      <p>rehabpro <strong>ne collecte aucune donnée à caractère personnel</strong>. Elle ne demande la création d’aucun compte, ne dispose d’aucun serveur, ne contient aucun système d’analyse, de statistiques, de publicité ou de signalement d’erreurs, et ne prévoit aucun champ destiné à identifier un patient.</p>
+      <p>Le programme d’exercices que le thérapeute compose reste <strong>sur son appareil</strong>. Il n’est transmis à personne, responsable du traitement compris.</p>
+      <p>La seule communication réseau qu’effectue l’application est adressée à Apple, afin de vérifier si l’abonnement est actif. Cette communication <strong>ne transporte</strong> ni le programme, ni les exercices, ni aucun texte rédigé par le thérapeute.</p>
+    </div>
+
+    <h2>1. Responsable du traitement</h2>
+    <p>Le responsable du traitement est <strong>Emanuele Malfarà</strong>, personne physique, Italie, en sa qualité de développeur de l’application rehabpro.</p>
+    <p>Pour toute demande relative à la présente politique : <a href="mailto:malfara.labs@gmail.com">malfara.labs@gmail.com</a>.</p>
+
+    <h2>2. Données traitées par l’application</h2>
+    <p>rehabpro est un outil qu’un kinésithérapeute utilise pour composer un programme d’exercices à domicile et en remettre une fiche imprimée à son patient. Les données que l’application gère sont exclusivement les suivantes, et elles restent toutes sur l’appareil :</p>
+    <ul>
+      <li><strong>les exercices choisis</strong> dans le catalogue inclus dans l’application, avec les doses, les limites et les notes que le thérapeute rédige ;</li>
+      <li><strong>l’état d’activation de l’abonnement</strong>, tel que communiqué par Apple.</li>
+    </ul>
+    <p>Il n’existe, et il n’est prévu, aucun champ dont la fonction serait d’identifier un patient : aucun nom, aucune date de naissance, aucun code, aucun intitulé libre au niveau du programme. Il ne s’agit pas d’un choix de configuration mais d’une propriété du produit, vérifiée par des contrôles automatiques du code source à chaque modification.</p>
+
+    <h3>Le risque résiduel, déclaré plutôt que passé sous silence</h3>
+    <p>Certains champs que le thérapeute remplit sont du <strong>texte libre</strong> : la limite de douleur, la charge et la note. Aucun d’eux ne demande de données relatives à un patient, et rien dans l’application n’incite à en saisir. Un thérapeute peut toutefois, de sa propre initiative, y inscrire un nom ou une autre donnée à caractère personnel. Aucun produit ne peut l’empêcher.</p>
+    <p>Si cela se produit, ce texte reste <strong>sur l’appareil du thérapeute</strong> et ne parvient à personne d’autre. Pour ce traitement, le <strong>responsable du traitement est le thérapeute lui-même</strong>, dans le cadre de son activité professionnelle et des obligations qui lui incombent déjà envers ses patients. Le responsable de la présente politique n’a pas accès à ces données, ne les reçoit pas et ne peut pas les extraire.</p>
+    <p>Les circonstances qui limitent ce risque sont au nombre de trois et sont vérifiables : il n’existe <strong>qu’un seul programme à la fois</strong>, la réinitialisation est explicite et complète, et l’application ne conserve aucune copie de la fiche exportée.</p>
+
+    <h2>3. Lieu et durée de conservation des données</h2>
+    <p>Dans le stockage local de l’application, sur l’appareil, et nulle part ailleurs. Il n’existe ni serveur, ni sauvegarde distante, ni service cloud géré par le responsable du traitement. Les données sont conservées jusqu’à ce que le thérapeute réinitialise le programme ou désinstalle l’application ; dans les deux cas, elles sont supprimées de l’appareil.</p>
+    <p>Si le thérapeute a activé la sauvegarde iCloud fournie par Apple, le stockage local peut être inclus dans cette sauvegarde conformément aux réglages de l’appareil et à la <a href="https://www.apple.com/legal/privacy/it/" rel="noopener">politique de confidentialité d’Apple</a>. Il s’agit d’un traitement qui a lieu entre l’utilisateur et Apple, auquel le responsable du traitement est étranger.</p>
+
+    <h2>4. Absence de traçage</h2>
+    <p>rehabpro ne contient pas, et ne contient pas sous forme désactivée :</p>
+    <ul>
+      <li>de systèmes de statistiques, d’analyse d’utilisation ou de télémétrie ;</li>
+      <li>d’outils de signalement automatique des erreurs ;</li>
+      <li>d’identifiants publicitaires, de publicité, de profilage ou de décisions automatisées ;</li>
+      <li>d’accès à l’appareil photo ou à la photothèque ;</li>
+      <li>de cookies ou de technologies équivalentes.</li>
+    </ul>
+    <p>Dans la déclaration de confidentialité jointe à l’application, le responsable du traitement déclare à Apple <strong>ne collecter aucune catégorie de données</strong> et <strong>ne procéder à aucun traçage</strong>.</p>
+
+    <h2>5. Abonnement et paiements</h2>
+    <p>L’abonnement est souscrit <strong>par l’intermédiaire de l’App Store</strong> : le vendeur est Apple, qui gère le paiement, le renouvellement, l’éventuelle période d’essai et les demandes de remboursement. Le responsable du traitement <strong>ne reçoit ni ne traite</strong> les données de la carte de paiement ni les données du compte Apple de l’utilisateur.</p>
+    <p>Le responsable du traitement reçoit d’Apple :</p>
+    <ul>
+      <li><strong>des rapports de ventes agrégés</strong>, qui indiquent combien d’activations ont eu lieu et dans quel pays, sans permettre d’identifier une personne ;</li>
+      <li><strong>le cas échéant, des données agrégées de diagnostic et de plantages</strong>, et uniquement pour les utilisateurs qui ont choisi de partager les informations d’analyse avec les développeurs dans les réglages de leur appareil. Ce partage est un choix de l’utilisateur à l’égard d’Apple, qu’il peut révoquer à tout moment dans les réglages d’iOS.</li>
+    </ul>
+    <p>Vérifier si l’abonnement est actif nécessite une communication entre l’application et Apple. Cette communication porte exclusivement sur le droit d’utilisation : <strong>aucune donnée du programme, du patient ou du catalogue ne la traverse</strong>, et cela aussi est vérifié par un contrôle automatique du code source.</p>
+
+    <h2>6. Base juridique et finalités</h2>
+    <p>Pour les données qui restent sur l’appareil, le traitement est effectué par le thérapeute pour sa propre finalité professionnelle et sous sa propre responsabilité. Le responsable de la présente politique n’en détermine ni les finalités ni les moyens, au-delà de la fourniture de l’outil.</p>
+    <p>Pour l’état de l’abonnement, la base juridique est l’<strong>exécution du contrat</strong> (article 6, paragraphe 1, point b), du règlement (UE) 2016/679) : sans cette vérification, l’application ne peut pas savoir si le service est dû.</p>
+
+    <h2>7. Communication et transfert des données</h2>
+    <p>Aucune donnée n’est communiquée à des tiers, diffusée ou transférée hors de l’Union européenne par le responsable du traitement, pour la raison la plus simple : le responsable du traitement n’en détient aucune. Les traitements effectués par Apple en sa qualité de distributeur et de vendeur sont régis par la politique de confidentialité d’Apple, dont le lien figure ci-dessus.</p>
+
+    <h2>8. Droits de la personne concernée</h2>
+    <p>Le règlement (UE) 2016/679 confère les droits d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité (articles 15 à 22). Il convient de préciser comment ils s’appliquent ici :</p>
+    <ul>
+      <li><strong>à l’égard du responsable du traitement</strong> : celui-ci ne détenant aucune donnée à caractère personnel des utilisateurs ni de leurs patients, il n’y a rien à extraire, à rectifier ou à effacer. Toute demande reçoit néanmoins une réponse, et la réponse sera celle-ci.</li>
+      <li><strong>sur l’appareil</strong> : le contrôle est direct et immédiat. Le thérapeute peut réinitialiser le programme depuis l’application ou désinstaller celle-ci, et obtenir ainsi la suppression complète sans avoir à en faire la demande à quiconque.</li>
+      <li><strong>à l’égard d’Apple</strong> : pour les données du compte, du paiement et de l’abonnement, il convient de s’adresser à Apple.</li>
+    </ul>
+    <p>Il est également possible d’introduire une réclamation auprès de l’autorité de contrôle italienne, le <strong>Garante per la protezione dei dati personali</strong> (<a href="https://www.garanteprivacy.it" rel="noopener">garanteprivacy.it</a>).</p>
+    <p>Outre le Garante per la protezione dei dati personali mentionné ci-dessus, une réclamation peut également être introduite auprès de l’autorité de contrôle du pays de la résidence habituelle ou du lieu de travail, ou de celui où la violation aurait été commise (article 77 du règlement (UE) 2016/679). Les autorités des pays auxquels s’adresse cette version :</p>
+    <ul>
+      <li><strong>Commission nationale de l'informatique et des libertés (CNIL)</strong> (France) — <a href="https://www.cnil.fr" rel="noopener">cnil.fr</a></li>
+      <li><strong>Autorité de protection des données (APD)</strong> (Belgique) — <a href="https://www.autoriteprotectiondonnees.be" rel="noopener">autoriteprotectiondonnees.be</a></li>
+      <li><strong>Commission nationale pour la protection des données (CNPD)</strong> (Luxembourg) — <a href="https://cnpd.public.lu" rel="noopener">cnpd.public.lu</a></li>
+    </ul>
+
+    <h2>9. Destinataires de l’application</h2>
+    <p>rehabpro est destinée aux professionnels de santé. Elle ne s’adresse pas aux mineurs et ne traite pas sciemment de données de mineurs.</p>
+
+    <h2>10. Modifications de la présente politique</h2>
+    <p>Toute modification sera publiée sur cette page avec une nouvelle date de mise à jour. Si une modification portait sur la nature des données traitées, elle serait signalée en tête de page.</p>
+
+    <footer><p> <a href="index.html">rehabpro</a> · <a href="termini.html">Conditions et avertissements</a> · <a href="supporto.html">Assistance</a> · Responsable du traitement : Emanuele Malfarà, Italie </p></footer>
+  </body>
+</html>
